@@ -4,6 +4,20 @@
 .App{
     background-color: #fffdf5;
 }
+header{
+    text-align: end;
+}
+.headerLink{
+    text-decoration: none;
+    color: #EF6351;
+    font-weight: bolder;
+    font-size: 1.5rem;
+    letter-spacing: 2px;
+    margin-left: 1rem;
+}
+.headerLink:hover{
+    text-shadow: 2px 2px #fddad1;
+}
 .counter{
     font-family: 'Press Start 2P', cursive;
     letter-spacing: 5px;
@@ -45,6 +59,9 @@ img{
     font-size: 1.5rem;
     letter-spacing: 2px;
     margin-left: 1rem;
+    opacity: 0;
+    animation: fadein 2s forwards;
+    animation-delay: 1.5s;
 }
 .headerLink:hover{
     text-shadow: 2px 2px #fddad1;
@@ -55,7 +72,7 @@ h4{
 }
 .cardWrapper{
     opacity: 0;
-    margin: 1rem;
+    margin: 4rem;
     display: grid;
     grid-template-columns: repeat(2, auto);
     grid-template-rows: repeat(3, auto);
@@ -98,7 +115,7 @@ h4{
     justify-self: end;
 }
 img{
-    background-color: #FBC3BC;
+    background-color: #ffd6d1;
     border-radius: 50%;
     padding: 4rem;
     margin: 2rem;
