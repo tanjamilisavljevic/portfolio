@@ -1,0 +1,79 @@
+*{
+    font-family: 'Monda', sans-serif;
+}
+.App{
+    background-color: #fffdf5;
+}
+h1{
+    font-family: 'Press Start 2P', cursive;
+    letter-spacing: 5px;
+    font-size: 4rem;
+    margin-left: 3rem;
+    color: #EF6351;
+    -webkit-text-stroke: 0.2px black;
+}
+.header{
+    text-align: end;
+}
+img{
+    width: 40%;
+}
+.headerLink{
+    text-decoration: none;
+    color: #EF6351;
+    font-weight: bolder;
+    font-size: 1.5rem;
+    letter-spacing: 2px;
+    margin-left: 1rem;
+}
+.headerLink:hover{
+    text-shadow: 2px 2px #fddad1;
+}
+h4{
+    color: #EF6351;
+    font-size: 1.5rem;
+    font-weight: bolder;
+}
+.cardWrapper{
+    margin: 1rem;
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    grid-template-rows: repeat(3, auto);
+    justify-content: space-around;
+}
+.card{
+    text-align: center;
+    margin: 2rem;
+}
+#card1{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    justify-self: end;
+    margin-right: 4rem;
+}
+#card2{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    margin-left: 4rem;
+}
+#card3{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    justify-self: end;
+    margin-right: 4rem;
+}
+.leftImg{
+    justify-self: end;
+}
+img{
+    background-color: #FBC3BC;
+    border-radius: 50%;
+    padding: 4rem;
+    margin: 2rem;
+}
