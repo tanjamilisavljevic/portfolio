@@ -1,8 +1,13 @@
 *{
     font-family: 'Monda', sans-serif;
+    color: #391910;
 }
 .App{
     background-color: #fffdf5;
+}
+footer{
+    text-align: end;
+    margin-top: 5rem;
 }
 header{
     text-align: end;
@@ -23,7 +28,7 @@ header{
     letter-spacing: 5px;
     font-size: 6rem;
     color: #EF6351;
-    -webkit-text-stroke: 0.2px black;
+    -webkit-text-stroke: 0.2px #391910;
     text-align: center;
     margin: 2rem;
 }
@@ -36,7 +41,7 @@ h1{
     letter-spacing: 5px;
     font-size: 4rem;
     color: #EF6351;
-    -webkit-text-stroke: 0.2px black;
+    -webkit-text-stroke: 0.2px #391910;
     animation: type 2s steps(60, end);
     margin: 10px 0 0 10px;
     white-space: nowrap;
@@ -134,4 +139,8 @@ img{
 }
 @keyframes rotate {
     100% {transform: rotate(360deg); }
+}
+#card:hover{
+    animation: rotate 2s;
+    cursor: pointer;
 }

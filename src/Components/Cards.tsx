@@ -17,7 +17,7 @@ function Cards() {
                     </a>
                 </div>
 
-                <img className='rightImg' src={BirthdayGirl}/>
+                <img className='rightImg' id='girl' src={BirthdayGirl}/>
 
                 <div className='card' id='card2'>
                     <a id='card2'>
@@ -26,7 +26,7 @@ function Cards() {
                     </a>
                 </div>
 
-                <img className='leftImg' src={BirthdayCard}/>
+                <img className='leftImg' id='card' src={BirthdayCard}/>
 
 
                 <div className='card' id='card3'>

@@ -1,6 +1,7 @@
 import './App.css';
 import React, {useEffect, useState} from "react";
 import Cards from "./Components/Cards";
+import Footer from "./Components/Footer";
 
 function App() {
 
@@ -25,6 +26,7 @@ function App() {
                     <h1 className='mainTitle'> WELCOME </h1>
                 </div>
                 <Cards/>
+                <Footer/>
             </div>
         );
     } else {
