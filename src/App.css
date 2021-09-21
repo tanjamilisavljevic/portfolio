@@ -6,9 +6,11 @@
 .App {
     background-color: #fffdf5;
 }
-.rightImg{
+
+.rightImg {
     justify-self: end;
 }
+
 footer {
     text-align: end;
     margin-top: 5rem;
@@ -207,26 +209,32 @@ img {
     text-align: center;
 }
 
-ul{
+ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     text-align: start;
 }
 
-li{
+li {
     text-decoration: none;
 }
-li:hover{
-   color: #EF6351;
+
+li:hover {
+    color: #EF6351;
     cursor: pointer;
 }
-.projectWrapper{
+
+.liActive {
+    color: #EF6351;
+}
+
+.projectWrapper {
     display: grid;
     grid-template-columns: 20%  50%;
 }
 
-.projectTitle{
+.projectTitle {
     color: #EF6351;
     font-weight: bolder;
 }
@@ -242,7 +250,8 @@ li:hover{
     display: inline-block;
     width: 100%;
 }
-hr{
+
+hr {
     color: #ffd6d1;
     opacity: 0.5;
 }

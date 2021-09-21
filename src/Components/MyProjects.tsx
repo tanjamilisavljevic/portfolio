@@ -6,7 +6,6 @@ function MyProjects() {
     const [displayWeather, setDisplayWeather] = useState(false)
     const [displayRock, setDisplayRock] = useState(false)
 
-
     const handleSimpsons = () => {
         setDisplaySimpsons(true)
         setDisplayWebshop(false)
