@@ -23,7 +23,7 @@ function App() {
                     <a className='headerLink' href='#contact'> Contact </a>
                 </header>
                 <div className='titleWrapper'>
-                    <h1 className='mainTitle'> WELCOME </h1>
+                    <h1> WELCOME </h1>
                 </div>
                 <Cards/>
                 <Footer/>
