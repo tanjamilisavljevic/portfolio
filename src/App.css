@@ -333,6 +333,9 @@ hr {
     h4{
         margin-top: 0.5rem;
     }
+    header {
+        text-align: center;
+    }
     .headerLink {
         font-size: 0.7rem;
     }

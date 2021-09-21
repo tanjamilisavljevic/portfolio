@@ -18,9 +18,9 @@ function MyProjects() {
             <p className='projectTitle'> The Simpsons Quiz </p>
             <p> Made using React with TypeScript.
                 Take a look at the finished product <a className='contactLink'
-                                                       href='https://affectionate-jepsen-1d70e3.netlify.app/'> here </a>,
+                                                       href='https://affectionate-jepsen-1d70e3.netlify.app/'> here</a>,
                 or my code <a className='contactLink'
-                              href='https://github.com/tanjamilisavljevic/the-impossible-quiz'> here </a>.
+                              href='https://github.com/tanjamilisavljevic/the-impossible-quiz'> here</a>.
             </p>
         </div>
     )
@@ -35,9 +35,9 @@ function MyProjects() {
             <p className='projectTitle'> Fake Webshop </p>
             <p> Made using React in collaboration with a fellow student.
                 Take a look at the finished product <a className='contactLink'
-                                                       href='https://determined-lichterman-67b53e.netlify.app/'> here </a>,
+                                                       href='https://determined-lichterman-67b53e.netlify.app/'> here</a>,
                 or the code <a className='contactLink'
-                               href='https://github.com/tanjamilisavljevic/ecommerce-with-react'> here </a>.
+                               href='https://github.com/tanjamilisavljevic/ecommerce-with-react'> here</a>.
             </p>
         </div>
     )
@@ -54,8 +54,8 @@ function MyProjects() {
             <p> One of my first projects made with plain JavaScript, using an API.
                 Take a look at the finished product <a className='contactLink'
                                                        href='https://tanjamilisavljevic.github.io/weather-app/'>
-                    here </a>, or the code
-                <a className='contactLink' href='https://github.com/tanjamilisavljevic/weather-app'> here </a>.
+                    here</a>, or the code
+                <a className='contactLink' href='https://github.com/tanjamilisavljevic/weather-app'> here</a>.
             </p>
         </div>
     )
@@ -72,8 +72,8 @@ function MyProjects() {
                 development.
                 Take a look at the finished product <a className='contactLink'
                                                        href='https://tanjamilisavljevic.github.io/rock-paper-scissors/'>
-                    here </a>, or the code
-                <a className='contactLink' href='https://github.com/tanjamilisavljevic/rock-paper-scissors'> here </a>.
+                    here</a>, or the code
+                <a className='contactLink' href='https://github.com/tanjamilisavljevic/rock-paper-scissors'> here</a>.
             </p>
         </div>
     )
