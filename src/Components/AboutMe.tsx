@@ -19,7 +19,7 @@ function AboutMe() {
             <div className='aboutMeText'>
                 When I'm not coding, catch me baking vegan cookies or watching scary movies and cuddling with my dog,
                 💖Lada💖
-                in the couch.
+                on the couch.
             </div>
         </div>
     );
