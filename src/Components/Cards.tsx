@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React from 'react';
 import BirthdayGirl from "../birthday-girl.png";
 import BirthdayCard from "../birthday-card.png";
 import Phone from "../phone.png";

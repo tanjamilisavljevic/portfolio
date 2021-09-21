@@ -6,6 +6,8 @@ function MyProjects() {
     const [displayWeather, setDisplayWeather] = useState(false)
     const [displayRock, setDisplayRock] = useState(false)
 
+
+
     const handleSimpsons = () => {
         setDisplaySimpsons(true)
         setDisplayWebshop(false)
@@ -81,13 +83,13 @@ function MyProjects() {
     return (
         <div className='projectWrapper'>
             <ul>
-                <li onClick={handleSimpsons}>The Simpsons Quiz</li>
+                <li onClick={handleSimpsons} >The Simpsons Quiz</li>
                 <hr/>
-                <li onClick={handleWebshop}>Fake Webshop</li>
+                <li onClick={handleWebshop} >Fake Webshop</li>
                 <hr/>
-                <li onClick={handleWeather}>Weather App</li>
+                <li onClick={handleWeather} >Weather App</li>
                 <hr/>
-                <li onClick={handleRock}>Rock-Paper-Scissors</li>
+                <li onClick={handleRock} >Rock-Paper-Scissors</li>
             </ul>
             {displaySimpsons ? <Simpsons/> : null}
             {displayWebshop ? <Webshop/> : null}

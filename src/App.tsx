@@ -8,9 +8,9 @@ function App() {
     const [counter, setCounter] = useState(2);
 
     useEffect(() => {
-        const timer =
+        const myTimer :any =
             counter > 0 && setInterval(() => setCounter(counter - 1), 1000);
-        return () => clearInterval(timer);
+        return ()  => clearInterval(myTimer);
     }, [counter]);
 
 
