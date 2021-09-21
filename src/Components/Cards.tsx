@@ -10,7 +10,7 @@ function Cards() {
         <div>
             <div className="cardWrapper">
 
-                <div className='card' id='card1'>
+                <div className='card' id='about-me'>
                     <a id='card1'>
                         <h4> Get to know me </h4>
                         <p> This is dummy text. This is dummy text. This is dummy text.</p>
@@ -19,17 +19,17 @@ function Cards() {
 
                 <img className='rightImg' id='girl' src={BirthdayGirl}/>
 
-                <div className='card' id='card2'>
+                <div className='card' id='my-projects'>
                     <a id='card2'>
                         <h4> See my work here </h4>
                         <p> This is dummy text. This is dummy text. This is dummy text.</p>
                     </a>
                 </div>
 
-                <img className='leftImg' id='card' src={BirthdayCard}/>
+                <img className='leftImg' id='birthdayCard' src={BirthdayCard}/>
 
 
-                <div className='card' id='card3'>
+                <div className='card' id='contact'>
                     <a id='card3'>
                         <h4> Let's get in touch! </h4>
                         <p> Connect with me on

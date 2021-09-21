@@ -5,7 +5,7 @@ import Footer from "./Components/Footer";
 
 function App() {
 
-    const [counter, setCounter] = useState(3);
+    const [counter, setCounter] = useState(2);
 
     useEffect(() => {
         const timer =
@@ -18,9 +18,9 @@ function App() {
         return (
             <div className='App'>
                 <header>
-                    <a className='headerLink' href='#card1'> About Me </a>
-                    <a className='headerLink' href='#card2'> My Projects </a>
-                    <a className='headerLink' href='#card3'> Contact </a>
+                    <a className='headerLink' href='#about-me'> About Me </a>
+                    <a className='headerLink' href='#my-projects'> My Projects </a>
+                    <a className='headerLink' href='#contact'> Contact </a>
                 </header>
                 <div className='titleWrapper'>
                     <h1 className='mainTitle'> WELCOME </h1>
