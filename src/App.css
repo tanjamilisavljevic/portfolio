@@ -1,18 +1,24 @@
-*{
+* {
     font-family: 'Monda', sans-serif;
     color: #391910;
 }
-.App{
+
+.App {
     background-color: #fffdf5;
 }
-footer{
+.rightImg{
+    justify-self: end;
+}
+footer {
     text-align: end;
     margin-top: 5rem;
 }
-header{
+
+header {
     text-align: end;
 }
-.headerLink{
+
+.headerLink {
     text-decoration: none;
     color: #EF6351;
     font-weight: bolder;
@@ -20,10 +26,12 @@ header{
     letter-spacing: 2px;
     margin-left: 1rem;
 }
-.headerLink:hover{
+
+.headerLink:hover {
     text-shadow: 2px 2px #fddad1;
 }
-.counter{
+
+.counter {
     font-family: 'Press Start 2P', cursive;
     letter-spacing: 5px;
     font-size: 6rem;
@@ -32,11 +40,13 @@ header{
     text-align: center;
     margin: 2rem;
 }
-.titleWrapper{
+
+.titleWrapper {
     display: flex;
     justify-content: center;
 }
-h1{
+
+h1 {
     font-family: 'Press Start 2P', cursive;
     letter-spacing: 5px;
     font-size: 4rem;
@@ -48,16 +58,22 @@ h1{
     overflow: hidden;
     width: 10em;
 }
-@keyframes type{
-    from { width: 0; }
+
+@keyframes type {
+    from {
+        width: 0;
+    }
 }
-.header{
+
+.header {
     text-align: end;
 }
-img{
+
+img {
     width: 40%;
 }
-.headerLink{
+
+.headerLink {
     text-decoration: none;
     color: #EF6351;
     font-weight: bolder;
@@ -68,14 +84,17 @@ img{
     animation: fadein 2s forwards;
     animation-delay: 1.5s;
 }
-.headerLink:hover{
+
+.headerLink:hover {
     text-shadow: 2px 2px #fddad1;
 }
-h4{
+
+h4 {
     color: #EF6351;
     font-size: 1.5rem;
 }
-.cardWrapper{
+
+.cardWrapper {
     opacity: 0;
     margin: 4rem;
     display: grid;
@@ -85,15 +104,22 @@ h4{
     animation: fadein 2s forwards;
     animation-delay: 2s;
 }
+
 @keyframes fadein {
-    from { opacity: 0; }
-    to   { opacity: 1; }
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
 }
-.card{
+
+.card {
     text-align: center;
     margin: 2rem;
 }
-#about-me{
+
+#about-me {
     grid-column-start: 1;
     grid-column-end: 2;
     grid-row-start: 1;
@@ -101,14 +127,16 @@ h4{
     justify-self: end;
     margin-right: 4rem;
 }
-#my-projects{
+
+#my-projects {
     grid-column-start: 2;
     grid-column-end: 3;
     grid-row-start: 2;
     grid-row-end: 3;
     margin-left: 4rem;
 }
-#contact{
+
+#contact {
     grid-column-start: 1;
     grid-column-end: 2;
     grid-row-start: 3;
@@ -116,52 +144,101 @@ h4{
     justify-self: end;
     margin-right: 4rem;
 }
-.leftImg{
-    justify-self: end;
-}
-img{
+
+
+img {
     background-color: #ffd6d1;
     border-radius: 50%;
     padding: 4rem;
     margin: 2rem;
 }
-.contactLink{
+
+.contactLink {
     text-decoration: none;
     color: #EF6351;
     font-weight: bolder;
 }
-.contactLink:hover{
+
+.contactLink:hover {
     text-shadow: 2px 2px #fddad1;
 }
-#phone:hover{
+
+#phone:hover {
     cursor: url("./sparkler.png"), auto;
 }
-#phone:active{
-    animation: rotate 2s ;
+
+#phone:active {
+    animation: rotate 2s;
 }
+
 @keyframes rotate {
-    100% {transform: rotate(360deg); }
+    100% {
+        transform: rotate(360deg);
+    }
 }
-#birthdayCard:active{
+
+#birthdayCard:active {
     animation: rotate 2s;
 }
-#birthdayCard:hover{
+
+#birthdayCard:hover {
     cursor: url("./sparkler.png"), auto;
 }
-#girl:hover{
+
+#girl:hover {
     cursor: url("./sparkler.png"), auto;
 }
-#girl:active{
+
+#girl:active {
     animation: rotate 2s;
 }
-.aboutMeText{
+
+.aboutMeText {
     text-align: justify;
 }
+
 .aboutMeText:after {
     content: "";
     display: inline-block;
     width: 100%;
 }
-.aboutMeTextTitle{
+
+.aboutMeTextTitle {
     text-align: center;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: start;
+}
+
+li{
+    text-decoration: none;
+}
+li:hover{
+   color: #EF6351;
+    cursor: pointer;
+}
+.projectWrapper{
+    display: grid;
+    grid-template-columns: 20%  50%;
+}
+
+.projectTitle{
+    color: #EF6351;
+    font-weight: bolder;
+}
+
+.project {
+    padding: 2rem;
+    border: dotted 5px #ffd6d1;
+    text-align: justify;
+}
+
+.project:after {
+    content: "";
+    display: inline-block;
+    width: 100%;
 }

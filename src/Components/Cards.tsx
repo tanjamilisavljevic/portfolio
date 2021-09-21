@@ -3,6 +3,7 @@ import BirthdayGirl from "../birthday-girl.png";
 import BirthdayCard from "../birthday-card.png";
 import Phone from "../phone.png";
 import AboutMe from "./AboutMe";
+import MyProjects from "./MyProjects";
 
 function Cards() {
 
@@ -22,8 +23,8 @@ function Cards() {
 
                 <div className='card' id='my-projects'>
                     <a id='card2'>
-                        <h4> See my work here </h4>
-                        <p> This is dummy text. This is dummy text. This is dummy text.</p>
+                        <h4> See me work </h4>
+                        <MyProjects/>
                     </a>
                 </div>
 
