@@ -148,3 +148,9 @@ img{
 #birthdayCard:hover{
     cursor: url("./sparkler.png"), auto;
 }
+#girl:hover{
+    cursor: url("./sparkler.png"), auto;
+}
+#girl:active{
+    animation: rotate 2s;
+}
