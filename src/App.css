@@ -154,3 +154,14 @@ img{
 #girl:active{
     animation: rotate 2s;
 }
+.aboutMeText{
+    text-align: justify;
+}
+.aboutMeText:after {
+    content: "";
+    display: inline-block;
+    width: 100%;
+}
+.aboutMeTextTitle{
+    text-align: center;
+}

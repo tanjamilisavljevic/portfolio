@@ -2,6 +2,7 @@ import React, {useState} from 'react';
 import BirthdayGirl from "../birthday-girl.png";
 import BirthdayCard from "../birthday-card.png";
 import Phone from "../phone.png";
+import AboutMe from "./AboutMe";
 
 function Cards() {
 
@@ -13,7 +14,7 @@ function Cards() {
                 <div className='card' id='about-me'>
                     <a id='card1'>
                         <h4> Get to know me </h4>
-                        <p> This is dummy text. This is dummy text. This is dummy text.</p>
+                        <AboutMe/>
                     </a>
                 </div>
 
