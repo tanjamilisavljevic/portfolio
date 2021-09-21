@@ -83,8 +83,11 @@ function MyProjects() {
         <div className='projectWrapper'>
             <ul>
                 <li onClick={handleSimpsons}>The Simpsons Quiz</li>
+                <hr/>
                 <li onClick={handleWebshop}>Fake Webshop</li>
+                <hr/>
                 <li onClick={handleWeather}>Weather App</li>
+                <hr/>
                 <li onClick={handleRock}>Rock-Paper-Scissors</li>
             </ul>
             {displaySimpsons ? <Simpsons/> : null}
