@@ -78,18 +78,17 @@ function MyProjects() {
         </div>
     )
 
-
     return (
         <div className='projectWrapper'>
             <ul>
-                <li onClick={handleSimpsons} className={displaySimpsons ? 'liActive' : 'notActive'}>The Simpsons Quiz
+                <li onClick={handleSimpsons} className={displaySimpsons ? 'liActive' : ''}>The Simpsons Quiz
                 </li>
                 <hr/>
-                <li onClick={handleWebshop} className={displayWebshop ? 'liActive' : 'notActive'}>Fake Webshop</li>
+                <li onClick={handleWebshop} className={displayWebshop ? 'liActive' : ''}>Fake Webshop</li>
                 <hr/>
-                <li onClick={handleWeather} className={displayWeather ? 'liActive' : 'notActive'}>Weather App</li>
+                <li onClick={handleWeather} className={displayWeather ? 'liActive' : ''}>Weather App</li>
                 <hr/>
-                <li onClick={handleRock} className={displayRock ? 'liActive' : 'notActive'}>Rock-Paper-Scissors</li>
+                <li onClick={handleRock} className={displayRock ? 'liActive' : ''}>Rock-Paper-Scissors</li>
             </ul>
             {displaySimpsons ? <Simpsons/> : null}
             {displayWebshop ? <Webshop/> : null}
