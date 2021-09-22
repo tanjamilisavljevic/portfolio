@@ -38,6 +38,9 @@ function Cards() {
                             <a className='contactLink'
                                href='https://www.linkedin.com/in/tanja-milisavljevic-5444a8212/'> LinkedIn</a>
                             <br/>OR
+                            <br/> <a className='contactLink'
+                               href='https://github.com/tanjamilisavljevic'> GitHub</a>
+                            <br/>OR
                             <br/> <a className='contactLink' href="mailto: tanjamilisavljevic7@gmail.com"
                                      target="_blank">email me</a>
                             <br/>OR

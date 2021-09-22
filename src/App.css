@@ -163,6 +163,7 @@ h4 {
     animation: rotate 2s;
 }
 
+
 #birthdayCard:hover {
     cursor: url("./sparkler.png"), auto;
 }
