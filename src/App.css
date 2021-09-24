@@ -221,6 +221,7 @@ li:hover {
 }
 
 .project {
+    min-width: 10rem;
     padding: 2rem;
     border: dotted 5px #ffd6d1;
     text-align: justify;
