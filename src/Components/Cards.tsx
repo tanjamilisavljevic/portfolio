@@ -23,7 +23,7 @@ function Cards() {
 
                 <div className='card' id='my-projects'>
                     <a id='card2'>
-                        <h4> See me work </h4>
+                        <h4> See my work </h4>
                         <MyProjects/>
                     </a>
                 </div>

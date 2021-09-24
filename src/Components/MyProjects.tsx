@@ -1,8 +1,8 @@
 import React, {useState} from 'react';
-import TheSimpsonsQuiz from "./TheSimpsonsQuiz";
-import FakeWebshop from "./FakeWebshop";
-import WeatherApp from "./WeatherApp";
-import RockPaperScissors from "./RockPaperScissors";
+import TheSimpsonsQuiz from "./Projects/TheSimpsonsQuiz";
+import FakeWebshop from "./Projects/FakeWebshop";
+import WeatherApp from "./Projects/WeatherApp";
+import RockPaperScissors from "./Projects/RockPaperScissors";
 
 function MyProjects() {
     const [displaySimpsons, setDisplaySimpsons] = useState(false)
