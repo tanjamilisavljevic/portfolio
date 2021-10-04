@@ -7,10 +7,6 @@
     background-color: #fffdf5;
 }
 
-.rightImg {
-    justify-self: end;
-}
-
 footer {
     text-align: end;
     margin-top: 5rem;
@@ -144,12 +140,17 @@ h4 {
 .contactLink:hover {
     text-shadow: 2px 2px #fddad1;
 }
-.rightImg{
+.rightImg {
+    justify-self: end;
     animation-name: shakeMe;
     animation-duration: 10s;
     animation-iteration-count: 2;
     animation-timing-function: linear;
 }
+.rightImgHidden{
+    display: none;
+}
+
 .leftImg{
     animation-name: shakeMe;
     animation-duration: 10s;
@@ -256,6 +257,7 @@ li:hover {
 
 .project {
     min-width: 10rem;
+    min-height: 15rem;
     padding: 2rem;
     padding-bottom: 0;
     border: dotted 5px #ffd6d1;

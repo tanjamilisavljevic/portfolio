@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useState} from 'react';
 import BirthdayGirl from "../birthday-girl.png";
 import BirthdayCard from "../birthday-card.png";
 import Phone from "../phone.png";
@@ -6,7 +6,6 @@ import AboutMe from "./AboutMe";
 import MyProjects from "./MyProjects";
 
 function Cards() {
-
 
     return (
         <div>
@@ -19,7 +18,8 @@ function Cards() {
                     </a>
                 </div>
 
-                <img className='rightImg' id='girl' src={BirthdayGirl}/>
+
+                <img className='rightImg' id='girl' src={BirthdayGirl} alt='a smiling girl'/>
 
                 <div className='card' id='my-projects'>
                     <a id='card2'>
@@ -28,7 +28,7 @@ function Cards() {
                     </a>
                 </div>
 
-                <img className='leftImg' id='birthdayCard' src={BirthdayCard}/>
+                <img className='leftImg' id='birthdayCard' src={BirthdayCard} alt='a card'/>
 
 
                 <div className='card' id='contact'>
@@ -50,7 +50,7 @@ function Cards() {
                     </a>
                 </div>
 
-                <img className='rightImg' id='phone' src={Phone}/>
+                <img className='rightImg' id='phone' src={Phone} alt='a phone'/>
 
             </div>
         </div>
