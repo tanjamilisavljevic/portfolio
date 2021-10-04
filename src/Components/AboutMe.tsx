@@ -10,8 +10,8 @@ function AboutMe() {
             <br/>
             <div className='aboutMeText'>
                 I am a full stack developer, with a strong preference for front-end development and a passion for
-                thoughtful UI design. Some technologies I've been working with recently are: JavaScript, React,
-                Typescript, CSS (SASS).  I love collaborating and sharing knowledge!
+                thoughtful UI design. Some technologies I've been working with recently are: <i>JavaScript, React,
+                Typescript, CSS (SASS)</i>.  I love collaborating and sharing knowledge!
                 <a className='contactLink' href="mailto: tanjamilisavljevic7@gmail.com" target="_blank"> Say Hi</a>,
                 and let's work together!
             </div>
