@@ -42,7 +42,7 @@ function MyProjects() {
                 <li onClick={handleSimpsons} className={displaySimpsons ? 'liActive' : ''}>The Simpsons Quiz
                 </li>
                 <hr/>
-                <li onClick={handleWebshop} className={displayWebshop ? 'liActive' : ''}>Fake Webshop</li>
+                <li onClick={handleWebshop} className={displayWebshop ? 'liActive' : ''}>My Bookshop</li>
                 <hr/>
                 <li onClick={handleWeather} className={displayWeather ? 'liActive' : ''}>Weather App</li>
                 <hr/>

@@ -36,10 +36,11 @@ function Cards() {
                         <h4> Let's get in touch! </h4>
                         <p> Connect with me on
                             <a className='contactLink'
-                               href='https://www.linkedin.com/in/tanja-milisavljevic-5444a8212/'> LinkedIn</a>
+                               href='https://www.linkedin.com/in/tanja-milisavljevic-5444a8212/'
+                               target="_blank"> LinkedIn</a>
                             <br/>OR
                             <br/> <a className='contactLink'
-                               href='https://github.com/tanjamilisavljevic'> GitHub</a>
+                                     href='https://github.com/tanjamilisavljevic' target="_blank"> GitHub</a>
                             <br/>OR
                             <br/> <a className='contactLink' href="mailto: tanjamilisavljevic7@gmail.com"
                                      target="_blank">email me</a>
