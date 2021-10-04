@@ -152,7 +152,7 @@ h4 {
 }
 .leftImg{
     animation-name: shakeMe;
-    animation-duration: 8s;
+    animation-duration: 10s;
     animation-iteration-count: infinite;
     animation-timing-function: linear;
 }
