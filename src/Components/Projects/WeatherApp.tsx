@@ -10,8 +10,8 @@ function WeatherApp() {
                         here</a>, or the code
                     <a className='contactLink' href='https://github.com/tanjamilisavljevic/weather-app' target="_blank"> here</a>.
                     <div className='projectButtonWrapper'>
-                        <a className='projectButton' href='https://tanjamilisavljevic.github.io/weather-app/'
-                           target="_blank">Check the weather</a>
+                        <a className='projectButton' id='weatherButton' href='https://tanjamilisavljevic.github.io/weather-app/'
+                           target="_blank">Check forecast</a>
                     </div>
                 </p>
             </div>

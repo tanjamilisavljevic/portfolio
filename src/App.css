@@ -163,7 +163,6 @@ h4 {
     animation: rotate 2s;
 }
 
-
 #birthdayCard:hover {
     cursor: url("./sparkler.png"), auto;
 }
@@ -237,10 +236,12 @@ hr {
     color: #ffd6d1;
     opacity: 0.5;
 }
-.projectButtonWrapper{
+
+.projectButtonWrapper {
     display: grid;
     grid-template-columns: repeat(6, 1fr);
 }
+
 .projectButton {
     text-decoration: none;
     background-color: #EF6351;
@@ -253,15 +254,18 @@ hr {
     box-shadow: 2px 2px 10px #ffd6cb;
     color: white;
 }
-.projectButton:hover{
+
+.projectButton:hover {
     color: #282c34;
 }
+
 @media only screen and (max-width: 1420px) {
     .projectButton {
         grid-column-start: 2;
         grid-column-end: 6;
     }
 }
+
 @media only screen and (max-width: 1035px) {
     h1 {
         font-size: 2rem;
@@ -298,6 +302,7 @@ hr {
         grid-column-start: 3;
         grid-column-end: 5;
     }
+
     .cardWrapper {
         margin: 1rem;
         margin-left: 3rem;
@@ -356,12 +361,14 @@ hr {
         margin-top: 2rem;
     }
 }
+
 @media only screen and (max-width: 750px) {
     .projectButton {
         grid-column-start: 2;
         grid-column-end: 6;
     }
 }
+
 @media only screen and (max-width: 510px) {
     h1 {
         font-size: 1.5rem;
@@ -393,6 +400,7 @@ hr {
         font-size: 0.7rem;
     }
 }
+
 @media only screen and (max-width: 360px) {
     .projectButton {
         grid-column-start: 1;
