@@ -144,7 +144,18 @@ h4 {
 .contactLink:hover {
     text-shadow: 2px 2px #fddad1;
 }
-
+.rightImg{
+    animation-name: shakeMe;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+.leftImg{
+    animation-name: shakeMe;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
 #phone:hover {
     cursor: url("./sparkler.png"), auto;
 }
@@ -158,6 +169,29 @@ h4 {
         transform: rotate(360deg);
     }
 }
+
+@keyframes shakeMe {
+    2%, 18% {
+        transform: translate3d(-3px, 0, 0);
+    }
+
+    4%, 16% {
+        transform: translate3d(3px, 0, 0);
+    }
+
+    6%, 10%, 14% {
+        transform: translate3d(-3px, 0, 0);
+    }
+
+    8%, 12% {
+        transform: translate3d(3px, 0, 0);
+    }
+
+    18.1% {
+        transform: translate3d(0px, 0, 0);
+    }
+}
+
 
 #birthdayCard:active {
     animation: rotate 2s;
