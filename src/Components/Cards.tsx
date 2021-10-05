@@ -1,11 +1,42 @@
 import React, {useState} from 'react';
 import BirthdayGirl from "../birthday-girl.png";
+import BirthdayGirl2 from "../birthday-girl2.png";
 import BirthdayCard from "../birthday-card.png";
+import BirthdayCard2 from "../birthday-card2.png";
 import Phone from "../phone.png";
+import Phone2 from "../phone2.png";
 import AboutMe from "./AboutMe";
 import MyProjects from "./MyProjects";
 
 function Cards() {
+
+    const [girlPicture, setGirlPicture] = useState(BirthdayGirl)
+    const [cardPicture, setCardPicture] = useState(BirthdayCard)
+    const [phonePicture, setPhonePicture] = useState(Phone)
+
+    const changePicture = () => {
+        if (girlPicture === BirthdayGirl) {
+            setGirlPicture(BirthdayGirl2)
+        } else {
+            setGirlPicture(BirthdayGirl)
+        }
+    }
+
+    const changeCard = () => {
+        if (cardPicture === BirthdayCard) {
+            setCardPicture(BirthdayCard2)
+        } else {
+            setCardPicture(BirthdayCard)
+        }
+    }
+
+    const changePhone = () => {
+        if (phonePicture === Phone) {
+            setPhonePicture(Phone2)
+        } else {
+            setPhonePicture(Phone)
+        }
+    }
 
     return (
         <div>
@@ -19,7 +50,7 @@ function Cards() {
                 </div>
 
 
-                <img className='rightImg' id='girl' src={BirthdayGirl} alt='a smiling girl'/>
+                <img className='rightImg' id='girl' onClick={changePicture} src={girlPicture} alt='a smiling girl'/>
 
                 <div className='card' id='my-projects'>
                     <a id='card2'>
@@ -28,7 +59,7 @@ function Cards() {
                     </a>
                 </div>
 
-                <img className='leftImg' id='birthdayCard' src={BirthdayCard} alt='a card'/>
+                <img className='leftImg' id='birthdayCard' onClick={changeCard} src={cardPicture} alt='a card'/>
 
 
                 <div className='card' id='contact'>
@@ -50,7 +81,7 @@ function Cards() {
                     </a>
                 </div>
 
-                <img className='rightImg' id='phone' src={Phone} alt='a phone'/>
+                <img className='rightImg' id='phone' onClick={changePhone} src={phonePicture} alt='a phone'/>
 
             </div>
         </div>
