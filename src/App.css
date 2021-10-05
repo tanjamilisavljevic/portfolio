@@ -296,7 +296,10 @@ hr {
 }
 
 .projectButton:hover {
-    color: #282c34;
+    background-color: #fa7361;
+}
+.projectButton:active {
+    background-color: #d04e3d;
 }
 
 @media only screen and (max-width: 1420px) {
