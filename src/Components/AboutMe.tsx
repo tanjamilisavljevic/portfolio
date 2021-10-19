@@ -1,4 +1,6 @@
 import React from 'react';
+// @ts-ignore
+import Obfuscate from "react-obfuscate"
 
 function AboutMe() {
     return (
@@ -11,11 +13,12 @@ function AboutMe() {
             <div className='aboutMeText'>
                 I am a full stack developer, with a strong preference for front-end development and a passion for
                 thoughtful UI design. Some technologies I've been working with recently are: <i>JavaScript, React,
-                Typescript, CSS (SASS)</i>.  I love collaborating and sharing knowledge!
-                <a className='contactLink' href="mailto: tanjamilisavljevic7@gmail.com" target="_blank"> Say Hi</a>,
+                Typescript, CSS (SASS)</i>. I love collaborating and sharing knowledge!
+                <Obfuscate className='contactLink' href="mailto: tanjamilisavljevic7@gmail.com" target="_blank"> Say
+                    Hi</Obfuscate>,
                 and let's work together!
             </div>
-                <br/>
+            <br/>
             <div className='aboutMeText'>
                 When I'm not coding, catch me baking vegan cookies or watching scary movies and cuddling with my dog,
                 💖Lada💖

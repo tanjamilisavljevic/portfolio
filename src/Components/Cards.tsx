@@ -7,6 +7,8 @@ import Phone from "../phone.png";
 import Phone2 from "../phone2.png";
 import AboutMe from "./AboutMe";
 import MyProjects from "./MyProjects";
+// @ts-ignore
+import Obfuscate from "react-obfuscate"
 
 function Cards() {
 
@@ -63,22 +65,24 @@ function Cards() {
 
 
                 <div className='card' id='contact'>
-                    <a id='card3'>
+                    <div id='card3'>
                         <h4> Let's get in touch! </h4>
-                        <p> Connect with me on
-                            <a className='contactLink'
+                        <p>
+                            Connect with me on
+                            <Obfuscate className='contactLink'
                                href='https://www.linkedin.com/in/tanja-milisavljevic-5444a8212/'
-                               target="_blank"> LinkedIn</a>
+                               target="_blank"> LinkedIn</Obfuscate>
                             <br/>OR
-                            <br/> <a className='contactLink'
-                                     href='https://github.com/tanjamilisavljevic' target="_blank"> GitHub</a>
+                            <br/> <Obfuscate className='contactLink'
+                                     href='https://github.com/tanjamilisavljevic' target="_blank"> GitHub</Obfuscate>
                             <br/>OR
-                            <br/> <a className='contactLink' href="mailto: tanjamilisavljevic7@gmail.com"
-                                     target="_blank">email me</a>
+                            <br/> <Obfuscate className='contactLink' href="mailto: tanjamilisavljevic7@gmail.com"
+                                     target="_blank">email me</Obfuscate>
                             <br/>OR
-                            <br/><a className='contactLink' href="tel:+32456147888"> call me </a> during office hours!
+                            <br/>
+                            <Obfuscate className='contactLink' tel="+32456147888">call me </Obfuscate> during office hours!
                         </p>
-                    </a>
+                    </div>
                 </div>
 
                 <img className='rightImg' id='phone' onClick={changePhone} src={phonePicture} alt='a phone'/>
