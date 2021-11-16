@@ -5,16 +5,16 @@ import Footer from "./Components/Footer";
 
 function App() {
 
-    const [counter, setCounter] = useState(2);
-
-    useEffect(() => {
-        const myTimer :any =
-            counter > 0 && setInterval(() => setCounter(counter - 1), 1000);
-        return ()  => clearInterval(myTimer);
-    }, [counter]);
-
-
-    if (counter === 0) {
+    // const [counter, setCounter] = useState(2);
+    //
+    // useEffect(() => {
+    //     const myTimer :any =
+    //         counter > 0 && setInterval(() => setCounter(counter - 1), 1000);
+    //     return ()  => clearInterval(myTimer);
+    // }, [counter]);
+    //
+    //
+    // if (counter === 0) {
         return (
             <div className='App'>
                 <header>
@@ -28,11 +28,11 @@ function App() {
                 <Cards/>
                 <Footer/>
             </div>
-        );
-    } else {
-        return <div className='counter'> {counter} </div>
-    }
-    ;
+        )
+    // } else {
+    //     return <div className='counter'> {counter} </div>
+    // }
+    // ;
 
 }
 
