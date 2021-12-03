@@ -214,13 +214,8 @@ h4 {
 }
 
 .aboutMeText {
-    text-align: justify;
-}
+    text-align: center;
 
-.aboutMeText:after {
-    content: "";
-    display: inline-block;
-    width: 100%;
 }
 
 .aboutMeTextTitle {
